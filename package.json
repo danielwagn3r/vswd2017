@@ -1,0 +1,21 @@
+{
+  "name": "vswd2017",
+  "version": "1.0.0",
+  "description": "VÖSI Software Day 2017 - The next generation developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vösi",
+    "coderdojo",
+    "developers",
+    "children"
+  ],
+  "author": {
+    "name": "Daniel Wagner",
+    "email": "daniel@wagners.name",
+    "url": "http://www.wagners.name"
+  },
+  "license": "GPL-3.0"
+}
