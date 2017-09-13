@@ -17,5 +17,10 @@
     "email": "daniel@wagners.name",
     "url": "http://www.wagners.name"
   },
+  "dependencies": {
+    "kittik": "2.1.2",
+    "kittik-cursor": "5.0.0",
+    "kittik-shape-image": "3.0.0"
+  },
   "license": "GPL-3.0"
 }
