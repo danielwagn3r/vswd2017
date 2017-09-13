@@ -2,9 +2,22 @@
   "name": "vswd2017",
   "version": "1.0.0",
   "description": "VÖSI Software Day 2017 - The next generation developers",
-  "main": "index.js",
+  "author": "kwaxi",
+  "main": "lib/index.js",
   "scripts": {
+    "clean": "rm -rf ./lib",
+    "compile": "npm run clean; babel src --out-dir lib",
+    "prepare": "npm run compile",
+    "prestart": "npm install",
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwaxi/vswd2017.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwaxi/vswd2017/issues"
   },
   "keywords": [
     "vösi",
@@ -12,15 +25,18 @@
     "developers",
     "children"
   ],
-  "author": {
-    "name": "Daniel Wagner",
-    "email": "daniel@wagners.name",
-    "url": "http://www.wagners.name"
-  },
   "dependencies": {
-    "kittik": "2.1.2",
-    "kittik-cursor": "5.0.0",
-    "kittik-shape-image": "3.0.0"
+    "kittik": "^2.1.2",
+    "kittik-cursor": "^5.0.0",
+    "kittik-shape-basic": "^4.0.0",
+    "kittik-shape-code": "^3.0.0",
+    "kittik-shape-image": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0"
   },
   "license": "GPL-3.0"
 }
