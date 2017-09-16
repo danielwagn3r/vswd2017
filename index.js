@@ -1,5 +1,7 @@
-var deck = require('kittik');
-deck.create({
+var Deck = require('kittik');
+var Cmd = require('node-cmd');
+
+Deck.create({
   shapes: [
     {
       name: 'vswd2017',
@@ -31,7 +33,7 @@ deck.create({
       name: 'PrintFast',
       type: 'Print',
       options: {
-        duration: 200
+        duration: 250
       }
     },
     {
@@ -39,6 +41,52 @@ deck.create({
       type: 'Print',
       options: {
         duration: 2000
+      }
+    },
+    {
+      name: 'FocusX',
+      type: 'Focus',
+      options: {
+        direction: 'shakeX',
+        duration: 500
+      }
+    },
+    {
+      name: 'FocusY',
+      type: 'Focus',
+      options: {
+        direction: 'shakeY',
+        duration: 500
+      }
+    },
+    {
+      name: 'Slide In Left',
+      type: 'Slide',
+      options: {
+        direction: 'inLeft',
+        duration: 1000
+      }
+    },
+    {
+      name: 'Slide In Right',
+      type: 'Slide',
+      options: {
+        direction: 'inRight',
+        duration: 1000
+      }
+    }, {
+      name: 'Slide In Down',
+      type: 'Slide',
+      options: {
+        direction: 'inDown',
+        duration: 1000
+      }
+    }, {
+      name: 'Slide In Up',
+      type: 'Slide',
+      options: {
+        direction: 'inUp',
+        duration: 1000
       }
     }
   ],
@@ -109,12 +157,132 @@ deck.create({
       order: [
         'vswd2017',
         'coderdojo',
-        'nextgeneration',
+        'nextgeneration::Slide In Left->FocusX',
         'developers::PrintSlow',
         'developers2::PrintSlow',
         'developers3::PrintSlow',
-        'developers4::PrintSlow'
+        'developers4::Slide In Right->FocusX'
+      ]
+    },
+    // 
+    // What is CoderDojo
+    //
+    {
+      shapes: [
+        {
+          name: 'headline',
+          type: 'FigText',
+          options: {
+            text: 'What is CoderDojo?',
+            font: "Computer",
+            x: 5,
+            y: 5,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'global',
+          type: 'FigText',
+          options: {
+            text: 'Global movement',
+            font: "Big",
+            x: 25,
+            y: 15,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'volunteers',
+          type: 'FigText',
+          options: {
+            text: 'Volunteers',
+            font: "Big",
+            x: 25,
+            y: 25,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'fun',
+          type: 'FigText',
+          options: {
+            text: 'Fun! Fun! Fun!',
+            font: "Big",
+            x: 25,
+            y: 35,
+            background: 'black',
+            foreground: 'green'
+          }
+        }
+      ],
+      animations: [
+        {
+          name: 'FocusY',
+          type: 'Focus',
+          options: {
+            direction: 'shakeY',
+            duration: 500
+          }
+        }
+      ],
+      order: [
+        'vswd2017',
+        'coderdojo',
+        'headline::Slide In Right',
+        'global::PrintSlow',
+        'volunteers::PrintSlow',
+        'fun::PrintSlow->FocusX->FocusY'
+      ]
+    },
+    // 
+    // Filling the gap
+    //
+    {
+      shapes: [
+        {
+          name: 'headline',
+          type: 'FigText',
+          options: {
+            text: 'How does it work?',
+            font: "Computer",
+            x: 5,
+            y: 5,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'demo',
+          type: 'FigText',
+          options: {
+            text: 'Just do IT',
+            font: "Big",
+            x: 25,
+            y: 15,
+            background: 'black',
+            foreground: 'green'
+          }
+        }
+      ],
+      animations: [
+        {
+          name: 'FocusY',
+          type: 'Focus',
+          options: {
+            direction: 'shakeY',
+            duration: 500
+          }
+        }
+      ],
+      order: [
+        'vswd2017',
+        'coderdojo',
+        'headline::Slide In Right',
+        'demo::PrintSlow'
       ]
     }
   ]
-}).run();
+}).run(); 

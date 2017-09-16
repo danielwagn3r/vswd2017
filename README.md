@@ -12,11 +12,6 @@ Daniel Wagner, VERBUND / CoderDojo Wien
 
 * Image Logo
 
-* Demo _Fang mich in Scratch_
-    - Control flow
-    - Data
-    - Messages
-
 * History of CoderDojo
  2011 CoderDojo Cork, Ireland
  2015 CoderDojo Linz (Rainer Stropek, Karin Huber)
@@ -29,7 +24,15 @@ Daniel Wagner, VERBUND / CoderDojo Wien
     - some direct their education towards computer science
     - become the professionals the day after tomorrow
 
-* 
+* How does it work
+    - 
+
+* Demo _Fang mich in Scratch_
+    - Control flow
+    - Data
+    - Messages
+
+
 * Codeweek Parktour
     - Seven initiatives
     - Four parks
