@@ -1,60 +1,120 @@
 var deck = require('kittik');
-
 deck.create({
   shapes: [
     {
-      name: 'Global Shape',
+      name: 'vswd2017',
       type: 'Text',
       options: {
-        text: 'This shape is available in all slides',
-        x: 'center',
-        y: 2
-      },
+        text: 'VÖSI Softwar Day 2017',
+        font: 'Star Wars',
+        x: "right",
+        y: "bottom",
+        foreground: "white",
+        background: "black"
+      }
+    },
+    {
+      name: 'coderdojo',
+      type: 'Text',
+      options: {
+        text: 'CoderDojo',
+        font: 'Star Wars',
+        x: "left",
+        y: "bottom",
+        foreground: "white",
+        background: "black"
+      }
     }
   ],
   animations: [
     {
-      name: 'Global Animation',
+      name: 'PrintFast',
       type: 'Print',
       options: {
-        duration: 5000
+        duration: 200
+      }
+    },
+    {
+      name: 'PrintSlow',
+      type: 'Print',
+      options: {
+        duration: 2000
       }
     }
   ],
   slides: [
     {
-      order: [
-        'Global Shape::Global Animation'
-      ]
-    },
-    {
-      shapes: [{
-        name: 'Local Shape',
-        type: 'Rectangle',
-        options: {
-          text: 'This shape is available only in current slide',
-          width: '50%',
-          height: 5,
-          background: 'white',
-          foreground: 'black',
-          x: 'center',
-          y: 6
-        }
-      }
-      ],
-      animations: [
+      shapes: [
         {
-          name: 'Local Animation',
-          type: 'Focus',
+          name: 'nextgeneration',
+          type: 'FigText',
           options: {
-            direction: 'shakeY',
-            duration: 500
+            text: 'The next generation',
+            font: "Star Wars",
+            x: 5,
+            y: 5,
+            foreground: "yellow",
+            background: "black"
+          }
+        },
+        {
+          name: 'developers',
+          type: 'FigText',
+          options: {
+            text: 'Developers',
+            font: "Avatar",
+            x: 22,
+            y: 17,
+            foreground: "yellow",
+            background: "black"
+          }
+        },
+        {
+          name: 'developers2',
+          type: 'FigText',
+          options: {
+            text: 'Developers',
+            font: "Doom",
+            x: 27,
+            y: 22,
+            foreground: "blue",
+            background: "black"
+          }
+        },
+        {
+          name: 'developers3',
+          type: 'FigText',
+          options: {
+            text: 'Developers',
+            font: "DOS Rebel",
+            x: 34,
+            y: 29,
+            foreground: "green",
+            background: "black"
+          }
+        },
+        {
+          name: 'developers4',
+          type: 'FigText',
+          options: {
+            text: 'DEVELOPERS',
+            font: "Bloody",
+            x: 45,
+            y: 39,
+            foreground: "red",
+            background: "black"
           }
         }
       ],
       order: [
-        'Global Shape::Global Animation',
-        'Local Shape::Global Animation->Local Animation'
+        'vswd2017',
+        'coderdojo',
+        'nextgeneration',
+        'developers::PrintSlow',
+        'developers2::PrintSlow',
+        'developers3::PrintSlow',
+        'developers4::PrintSlow'
       ]
-    }]
+    }
+  ]
 }).run();
