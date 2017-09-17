@@ -1,43 +1,32 @@
-# VÖSI Software Day 2017 - The next generation Developers
+## CoderDojo - The next generation Developers
 
-Daniel Wagner, VERBUND / CoderDojo Wien
+Talk beim [VÖSI Software Day 2017](http://softwareday.voesi.or.at/) 
 
-* Intro:
-- CoderDojo Wien: The next generation
-            Developers
-                Developers
-                    Developers
-                        Developers
+Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen und Experimentieren stehen im CoderDojo im Vordergrund. Offenheit, gegenseitiges Helfen und das Weitergeben von erworbenem Wissen sind wichtige Grundprinzipien. An oberster Stelle steht aber die Förderung von Kreativität und Spaß an Technologie. Softwareentwicklung in einer Gemeinschaft soll Spaß machen, cool sein und den Kindern neue Perspektiven in einer Welt eröffnen, die immer mehr von Technologie, Computern und Software geprägt ist.
 
 
-* Image Logo
+### Preview
 
-* History of CoderDojo
- 2011 CoderDojo Cork, Ireland
- 2015 CoderDojo Linz (Rainer Stropek, Karin Huber)
- 2017 CoderDojo Wien (Anton Kalcik, Daniel Wagner)
-      CoderDojo Horn (Stephan Kitzler-Walli)
+![](preview.gif)
 
-* Filling the gap
-    - today kids see how software works
-    - tomorrow the know about it
-    - some direct their education towards computer science
-    - become the professionals the day after tomorrow
+### Quickstart
 
-* How does it work
-    - 
+#### Prerequisites
 
-* Demo _Fang mich in Scratch_
-    - Control flow
-    - Data
-    - Messages
+I used an experimental feature of [iTerm](https://www.iterm2.com/) to cat images to the terminal for this talk. Please install a recent beta version to enjoy all visuals :wink:
 
+#### Step 1
 
-* Codeweek Parktour
-    - Seven initiatives
-    - Four parks
-    - One goal
+Pull the latest image:
 
-* Next generation Developers
-    - will not only be digital natives
-    - but developing natives
+```
+docker pull danielwagn3r/vswd2017:latest
+```
+
+#### Step 2
+
+Run the presentation:
+
+```
+docker run -it --rm danielwagn3r/vswd2017:latest
+```
