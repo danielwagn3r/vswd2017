@@ -163,6 +163,125 @@ Deck.create({
         'parktour::PrintSlow',
         'ideas::PrintSlow'
       ]
-    }
-  ]
+    },
+    // 
+    // What's needed
+    //
+    {
+      shapes: [
+        {
+          name: 'headline',
+          type: 'FigText',
+          options: {
+            text: 'We want you!',
+            font: "Computer",
+            x: 5,
+            y: 5,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'childen',
+          type: 'FigText',
+          options: {
+            text: 'Kinder die teilnehmen',
+            font: "Big",
+            x: 25,
+            y: 15,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'mentors',
+          type: 'FigText',
+          options: {
+            text: 'Mentoren die mitarbeiten',
+            font: "Big",
+            x: 25,
+            y: 25,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'sponsors',
+          type: 'FigText',
+          options: {
+            text: 'Sponsoren die unterstützen',
+            font: "Big",
+            x: 25,
+            y: 35,
+            background: 'black',
+            foreground: 'green'
+          }
+        }
+      ],
+      animations: [
+        {
+          name: 'FocusY',
+          type: 'Focus',
+          options: {
+            direction: 'shakeY',
+            duration: 500
+          }
+        }
+      ],
+      order: [
+        'vswd2017',
+        'coderdojo',
+        'headline::Slide In Right',
+        'childen::PrintSlow',
+        'mentors::PrintSlow',
+        'sponsors::PrintSlow'
+      ]
+    },
+    // 
+    // Thanks
+    //
+    {
+      shapes: [
+        {
+          name: 'headline',
+          type: 'FigText',
+          options: {
+            text: 'Thanks!',
+            font: "Computer",
+            x: 5,
+            y: 5,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'url',
+          type: 'FigText',
+          options: {
+            text: 'wien.coderdojo.net',
+            font: "Doom",
+            x: 25,
+            y: 25,
+            background: 'black',
+            foreground: 'green'
+          }
+        }
+      ],
+      animations: [
+        {
+          name: 'FocusY',
+          type: 'Focus',
+          options: {
+            direction: 'shakeY',
+            duration: 500
+          }
+        }
+      ],
+      order: [
+        'vswd2017',
+        'coderdojo',
+        'headline::Slide In Right',
+        'url::PrintSlow',
+      ]
+    } ]
 }).run(); 
