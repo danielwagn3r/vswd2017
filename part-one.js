@@ -236,53 +236,6 @@ Deck.create({
         'volunteers::PrintSlow',
         'fun::PrintSlow->FocusX->FocusY'
       ]
-    },
-    // 
-    // Filling the gap
-    //
-    {
-      shapes: [
-        {
-          name: 'headline',
-          type: 'FigText',
-          options: {
-            text: 'How does it work?',
-            font: "Computer",
-            x: 5,
-            y: 5,
-            background: 'black',
-            foreground: 'green'
-          }
-        },
-        {
-          name: 'demo',
-          type: 'FigText',
-          options: {
-            text: 'Just do IT',
-            font: "Big",
-            x: 25,
-            y: 15,
-            background: 'black',
-            foreground: 'green'
-          }
-        }
-      ],
-      animations: [
-        {
-          name: 'FocusY',
-          type: 'Focus',
-          options: {
-            direction: 'shakeY',
-            duration: 500
-          }
-        }
-      ],
-      order: [
-        'vswd2017',
-        'coderdojo',
-        'headline::Slide In Right',
-        'demo::PrintSlow'
-      ]
     }
   ]
 }).run(); 
