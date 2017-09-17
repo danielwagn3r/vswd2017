@@ -1,6 +1,6 @@
-## CoderDojo - The next generation Developers
+## [CoderDojo](http://wien.coderdojo.net) - The next generation Developers
 
-Talk beim [VÖSI Software Day 2017](http://softwareday.voesi.or.at/) 
+Talk beim [VÖSI Software Day 2017](http://softwareday.voesi.or.at/) über [CoderDojo Wien](http://wien.coderdojo.net) und die Idee dahinter.
 
 Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen und Experimentieren stehen im CoderDojo im Vordergrund. Offenheit, gegenseitiges Helfen und das Weitergeben von erworbenem Wissen sind wichtige Grundprinzipien. An oberster Stelle steht aber die Förderung von Kreativität und Spaß an Technologie. Softwareentwicklung in einer Gemeinschaft soll Spaß machen, cool sein und den Kindern neue Perspektiven in einer Welt eröffnen, die immer mehr von Technologie, Computern und Software geprägt ist.
 
