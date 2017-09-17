@@ -9,6 +9,7 @@ COPY README.md /vswd2017/
 COPY package*.json /vswd2017/
 COPY *.js /vswd2017/
 COPY *.png /vswd2017/
+COPY *.jpg /vswd2017/
 COPY *.sh /vswd2017/
 COPY imgcat /vswd2017/
 
