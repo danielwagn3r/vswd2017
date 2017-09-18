@@ -19,7 +19,7 @@ Deck.create({
       name: 'coderdojo',
       type: 'Text',
       options: {
-        text: 'CoderDojo',
+        text: '@daniel_wagn3r / VERBUND, CoderDojo Wien',
         font: 'Star Wars',
         x: "left",
         y: "bottom",
