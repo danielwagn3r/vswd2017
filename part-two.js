@@ -19,7 +19,7 @@ Deck.create({
       name: 'coderdojo',
       type: 'Text',
       options: {
-        text: 'CoderDojo',
+        text: '@daniel_wagn3r / VERBUND, CoderDojo Wien',
         font: 'Star Wars',
         x: "left",
         y: "bottom",
@@ -74,14 +74,16 @@ Deck.create({
         direction: 'inRight',
         duration: 1000
       }
-    }, {
+    },
+    {
       name: 'Slide In Down',
       type: 'Slide',
       options: {
         direction: 'inDown',
         duration: 1000
       }
-    }, {
+    },
+    {
       name: 'Slide In Up',
       type: 'Slide',
       options: {

@@ -74,14 +74,16 @@ Deck.create({
         direction: 'inRight',
         duration: 1000
       }
-    }, {
+    },
+    {
       name: 'Slide In Down',
       type: 'Slide',
       options: {
         direction: 'inDown',
         duration: 1000
       }
-    }, {
+    },
+    {
       name: 'Slide In Up',
       type: 'Slide',
       options: {
@@ -283,5 +285,5 @@ Deck.create({
         'headline::Slide In Right',
         'url::PrintSlow',
       ]
-    } ]
+    }]
 }).run(); 
