@@ -7,7 +7,7 @@ Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen un
 
 ### Preview
 
-![](preview.gif)
+![](screencast.gif)
 
 ### Quickstart
 
