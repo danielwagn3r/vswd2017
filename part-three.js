@@ -7,7 +7,7 @@ Deck.create({
       name: 'vswd2017',
       type: 'Text',
       options: {
-        text: 'VÖSI Softwar Day 2017',
+        text: 'VÖSI Software Day 2017',
         font: 'Star Wars',
         x: "right",
         y: "bottom",
