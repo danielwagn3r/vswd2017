@@ -4,6 +4,12 @@ Talk beim [VÖSI Software Day 2017](http://softwareday.voesi.or.at/) über [Code
 
 Gemeinsames Entdecken, Teamarbeit, Mentoring sowie selbstorganisiertes Lernen und Experimentieren stehen im CoderDojo im Vordergrund. Offenheit, gegenseitiges Helfen und das Weitergeben von erworbenem Wissen sind wichtige Grundprinzipien. An oberster Stelle steht aber die Förderung von Kreativität und Spaß an Technologie. Softwareentwicklung in einer Gemeinschaft soll Spaß machen, cool sein und den Kindern neue Perspektiven in einer Welt eröffnen, die immer mehr von Technologie, Computern und Software geprägt ist.
 
+Contact us on:
+
+Email: hallo@wien.coderdojo.net
+Facebook: https://fb.me/CoderDojoWien
+Twitter: https://twitter.com/CoderDojoWien
+
 
 ### Preview
 
