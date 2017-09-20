@@ -240,6 +240,79 @@ Deck.create({
       ]
     },
     // 
+    // Goal
+    //
+    {
+      shapes: [
+        {
+          name: 'headline',
+          type: 'FigText',
+          options: {
+            text: 'Goal',
+            font: "Computer",
+            x: 5,
+            y: 5,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'interesse',
+          type: 'FigText',
+          options: {
+            text: 'Interesse an IT',
+            font: "Big",
+            x: 25,
+            y: 15,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'verstaendnis',
+          type: 'FigText',
+          options: {
+            text: 'Mentoren die mitarbeiten',
+            font: "Big",
+            x: 25,
+            y: 25,
+            background: 'black',
+            foreground: 'green'
+          }
+        },
+        {
+          name: 'natives',
+          type: 'FigText',
+          options: {
+            text: 'Coding Natives',
+            font: "Big",
+            x: 25,
+            y: 35,
+            background: 'black',
+            foreground: 'green'
+          }
+        }
+      ],
+      animations: [
+        {
+          name: 'FocusY',
+          type: 'Focus',
+          options: {
+            direction: 'shakeY',
+            duration: 500
+          }
+        }
+      ],
+      order: [
+        'vswd2017',
+        'coderdojo',
+        'headline::Slide In Right',
+        'interesse::PrintSlow',
+        'verstaendnis::PrintSlow',
+        'natives::PrintSlow'
+      ]
+    },
+    // 
     // Thanks
     //
     {
@@ -285,5 +358,5 @@ Deck.create({
         'headline::Slide In Right',
         'url::PrintSlow',
       ]
-    }]
+    }  ]
 }).run(); 

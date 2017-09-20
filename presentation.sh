@@ -4,7 +4,14 @@ clear
 read
 node part-one.js
 clear
+./imgcat linz.jpg
+read
+node part-two.js
+clear
 ./imgcat lauch.jpg
+read
+clear
+./imgcat horn.jpg
 read
 node part-two.js
 clear
