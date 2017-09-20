@@ -272,7 +272,7 @@ Deck.create({
           name: 'verstaendnis',
           type: 'FigText',
           options: {
-            text: 'Mentoren die mitarbeiten',
+            text: 'Verständnis für IT',
             font: "Big",
             x: 25,
             y: 25,
